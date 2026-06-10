@@ -1,0 +1,65 @@
+# ── Ambientes virtuais ──────────────────────────────────────
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# ── Python ──────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# ── Distribuição / build ─────────────────────────────────────
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# ── Jupyter Notebooks ────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Dados sensíveis / grandes ────────────────────────────────
+# Descomente se não quiser versionar o dataset:
+# loan_data.csv
+
+# ── Outputs gerados automaticamente ─────────────────────────
+# (mantidos no repo para visualização no README)
+# eda_overview.png
+# model_results.png
+
+# ── Modelos serializados ─────────────────────────────────────
+*.pkl
+*.joblib
+*.h5
+*.model
+models/
+
+# ── IDEs e editores ──────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ── Variáveis de ambiente ─────────────────────────────────────
+.env
+.env.local
+*.env
+
+# ── Logs e relatórios ────────────────────────────────────────
+*.log
+logs/
+reports/
+
+# ── pytest / cobertura ───────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
